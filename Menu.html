@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worker Connection UI</title>
+    <link rel="stylesheet" href="project.css">
+    <script defer src="project.js"></script>
+</head>
+<body>
+    <header>
+        <h1>The Worker Connection</h1>
+        <p>We’re the connection between top-rated workers and those who need them.</p>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <button class="category active" data-filter="all">All</button>
+            <button class="category" data-filter="electrician">Electrician</button>
+            <button class="category" data-filter="plumber">Plumber</button>
+            <button class="category" data-filter="mason">Mason</button>
+            <button class="category" data-filter="constructor">Constructor</button>
+        </aside>
+
+        <section class="worker-grid">
+            <div class="worker-card" data-category="electrician">
+                <img src="https://img.freepik.com/premium-photo/professional-electrician-image-generated-ai_644690-13746.jpg" alt="Electrician">
+                <h3>Electrician</h3>
+            </div>
+            <div class="worker-card" data-category="plumber">
+                <img src="https://img.freepik.com/premium-photo/skilled-plumber-working-sink-fixing-pipes-connections-with-tools-hand-ensuring-proper-water-flowgenerated-with-ai_130181-5300.jpg?w=2000" alt="Plumber">
+                <h3>Plumber</h3>
+            </div>
+            <div class="worker-card" data-category="mason">
+                <img src="https://th.bing.com/th/id/OIP.meNc9BR57-wTJ08yPWut4AHaFS?rs=1&pid=ImgDetMain" alt="Mason">
+                <h3>Mason</h3>
+            </div>
+            <div class="worker-card" data-category="constructor">
+                <img src="https://www.dimolanka.com/wp-content/uploads/2023/03/Construction-800x800-1.jpg" alt="Constructor">
+                <h3>Constructor</h3>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
